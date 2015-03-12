@@ -1,0 +1,14 @@
+import java.util.Date;
+
+public class Post {
+
+    private String topic;
+    private Date dateCreated;
+    private Date lastUpdate;
+    private boolean isAllowed;
+
+    public void comment() {}
+    public void rate() {}
+    public void share() {}
+
+}
