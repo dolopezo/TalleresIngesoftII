@@ -7,8 +7,8 @@ public class Post {
     private Date lastUpdate;
     private boolean isAllowed;
 
-    public void comment() {}
-    public void rate() {}
+    public void comment(String someComment) { System.out.println(someComment); }
+    public void rate(String someRate) { System.out.println(someRate); }
     public void share() {}
 
 }
