@@ -6,7 +6,7 @@ public class Post {
     private Date dateCreated;
     private Date lastUpdate;
     private boolean isAllowed;
-    private List<File> files = new ArrayList<File>();
+    private List<File> files = new ArrayList<>();
 
 	public void setTopic(String topic){
 		this.topic = topic;
@@ -41,14 +41,14 @@ public class Post {
 	}
 	
     public void comment(){ 
-    	throw new UnsupportedOperationException("Mï¿½todo no implementado");
+    	throw new UnsupportedOperationException("Método no implementado");
 	}
 	
     public void rate(String someRate){
-    	throw new UnsupportedOperationException("Mï¿½todo no implementado");
+    	throw new UnsupportedOperationException("Método no implementado");
     }
     
     public void share(){
-     	throw new UnsupportedOperationException("Mï¿½todo no implementado");
+     	throw new UnsupportedOperationException("Método no implementado");
     }
 }
